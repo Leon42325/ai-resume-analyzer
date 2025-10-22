@@ -42,7 +42,7 @@ const Resume = () => {
           const imageUrl = URL.createObjectURL(imageBlob);
           setImageUrl(imageUrl);
 
-          setFeedback(data.feeback);
+          setFeedback(data.feedback);
           console.log({ resumeUrl, imageUrl, feedback: data.feedback });
       }
 
