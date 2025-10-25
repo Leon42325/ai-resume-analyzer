@@ -1,4 +1,4 @@
-import {Link, useNavigate} from "react-router";
+import {Link} from "react-router";
 import ScoreCircle from "~/components/ScoreCircle";
 import {useEffect, useState} from "react";
 import {usePuterStore} from "~/lib/puter";
@@ -14,6 +14,8 @@ const ResumeCard = ({ resume: {id, companyName, jobTitle, feedback, imagePath } 
           let url = URL.createObjectURL(blob);
           setResumeUrl(url);
       }
+
+      loadResume();
   }, [imagePath]);
 
   return (
