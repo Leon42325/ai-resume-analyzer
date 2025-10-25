@@ -36,7 +36,10 @@ export default function Home() {
           setResumes(parsedResumes || []);
           setLoadingResumes(false);
       }
-  })
+
+      loadResumes();
+
+  }, [])
 
   return <main className="bg-[url('/images/bg-main.svg')] bg-cover">
     <Navbar />
@@ -52,7 +55,7 @@ export default function Home() {
         </div>
         {loadingResumes && (
             <div className="flex flex-col items-center justify-center">
-                <img src="/images/resume-scan-2.gif" className="w-[200px]" alt="resume-scan-2" />
+                <img src="/images/resume-scan-2.gif" className="w-[200px]" alt="scanning animation" />
             </div>
         )}
 
@@ -74,3 +77,4 @@ export default function Home() {
     </section>
   </main>
 }
+
