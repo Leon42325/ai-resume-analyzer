@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a70a1599-2323-4d9d-b7cb-788abb6ad46d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ATS.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ATS.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Details.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Details.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Summary.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/resume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/resume.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ResumeCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ResumeCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760970046758</updated>
-      <workItem from="1760970047493" duration="41991000" />
+      <workItem from="1760970047493" duration="46818000" />
     </task>
     <servers />
   </component>
